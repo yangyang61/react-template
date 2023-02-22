@@ -1,0 +1,29 @@
+
+.FooterBar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px #DEDEDE;
+  border-radius: 12px 12px 0px 0px;
+
+  :global(.adm-tab-bar-wrap) {
+    min-height: 76px;
+  }
+  :global(.adm-tab-bar-item-title-with-icon) {
+    margin-top: 10px;
+  }
+  :global(.adm-tab-bar-item) {
+    color:#E4E4E4;
+  }
+  :global(.adm-tab-bar-item-active) {
+    color:#2A4948;
+  }
+  
+  
+}
+
+.barIcon {
+  width: 28px;
+  height: 28px;
+}
